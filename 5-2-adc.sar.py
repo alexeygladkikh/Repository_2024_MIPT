@@ -1,8 +1,8 @@
 import RPi.GPIO as GPIO
 import time 
-dac=[26, 19, 13, 6, 5, 11, 9, 10]
-comp=4
-troyka=17
+dac=[8, 11, 7, 1, 0, 5, 12, 6]
+comp=14
+troyka=13
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(dac, GPIO.OUT, initial=GPIO.LOW)
 GPIO.setup(troyka, GPIO.OUT, initial=GPIO.HIGH)         
